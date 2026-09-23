@@ -244,7 +244,6 @@ async function _0x9b0c(_0x11aa) {
     if (_0x44dd.status === "error") {
       throw new Error(_0x44dd.pesan || "Terjadi kesalahan di server.");
     }
-    console.log(_0x44dd)
     return _0x44dd;
   } catch (_0x66ff) {
     throw new Error('Gagal terhubung ke server: ' + _0x66ff.message);
